@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selectors & more desiging</title>
+    <style>
+        
+        .container {
+            border: 2px solid red;
+            border-radius: 15px;
+            background-color: rgb(199, 230, 169);
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: rgb(35, 25, 5);
+            background-color: rgb(236, 192, 33);
+        }
+
+        a.visited {
+            background-color: yellow;
+        }
+
+        a.active {
+            background-color: blue;
+        }
+
+        .btn {
+            font-family: cursive;
+            font-weight: bold;
+            background-color: rgb(224, 26, 168);
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 12px;
+            border-radius: 4px;
+        }
+
+        .btn:hover {
+            color: blueviolet;
+            background-color: antiquewhite;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="count1">
+        <h3>This is buttons tutorial</h3>
+        <p>this is linkedin website for more infomation tap on READ MORE button</p>
+        <a href="https://linkedin.com" class="btn">Read more</a>
+        <button class="btn">contact us</button>
+    </div>
+</body>
+
+</html>
